@@ -21,8 +21,10 @@ def get_phone_number_info(phone_number):
         return None, None
 
 
-# Example usage
-phone_number = "XXXXXXXXX" #enter number 
+
+phone_number = input("Enter the phone number: ")
+
+
 location, region = get_phone_number_info(phone_number)
 
 if location and region:
